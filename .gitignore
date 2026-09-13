@@ -133,4 +133,18 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
-.pnp.*
+.pnp.* 
+# Firebase
+.firebase/
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Firebase Admin SDK service account
+serviceAccountKey.json
+firebase-service-account.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
